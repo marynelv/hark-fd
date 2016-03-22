@@ -1,0 +1,8 @@
+　・lboost_thread-mt/lboost_thread切り替え方法
+　　1．m4フォルダーにboost.m4を置く(hark-fdにある)
+　　2．Makefile.amにACLOCAL_AMFLAGS = -I m4と記述する。
+　　3．configure.in/configure.acにBOOST_THREAD_JUDGE([1.46.0])と記述する。
+　　→1.46は基準とするboostのversion
+　　4. Makefile.amに記述されているlboost_thread-mtまたはlboost_threadを@BOOST_THREAD@に置き換える。
+　　5. configure.in/configure.acに記述されているlboost_thread-mtまたはlboost_threadを$BOOST_THREADに置き換える。
+　　6. autoreconfでconfigureを再作成し、configure,make,make installまでを実行する

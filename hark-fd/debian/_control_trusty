@@ -1,0 +1,24 @@
+Source: harkfd
+Section: non-free/science
+Priority: extra
+Maintainer: HRI-JP <hark-support@kuis.kyoto-u.ac.jp>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+Homepage: http://winnie.kuis.kyoto-u.ac.jp/HARK/
+
+
+Package: harkfd
+Architecture: any
+Pre-Depends: librasp-netapi ,libhark-netapi
+Depends: ${shlibs:Depends}, ${misc:Depends}, libharkio3, libsdl2-dev, libsdl2-2.0-0
+Conflicts: libharkio2 ( << 2.0.0 ) , libharkio-dev ( << 2.0.0 ) , libharkio1 ( << 2.0.0 )
+Replaces:  libharkio2 ( << 2.0.0 ) , libharkio-dev ( << 2.0.0 ) , libharkio1 ( << 2.0.0 )
+Description: Main HARK modules
+ enabled ALSA and RASP
+ 
+Package: harkfd-dev
+Section: libdevel
+Architecture: any
+Depends: harkfd (= ${binary:Version})
+Description:  header file for harkfd
+

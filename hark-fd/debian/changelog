@@ -1,0 +1,119 @@
+harkfd (2.2.0) trusty; urgency=low
+
+  * Release for v2.2.0
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 06 Nov 2015 17:24:34 +0900
+
+harkfd (2.2.0~7758) trusty; urgency=low
+
+  * Pre-release for 2.2.0
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 24 Aug 2015 15:38:36 +0900
+
+harkfd (2.1.1.7580) trusty; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 06 Mar 2015 14:09:24 +0900
+
+harkfd (2.1.1) trusty; urgency=medium
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 04 Feb 2015 15:49:22 +0900
+
+harkfd (2.0.2) trusty; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 12 Aug 2014 12:25:01 +0900
+
+harkfd (2.0.1.6725) trusty; urgency=medium
+
+  * ubuntu14.04LTS
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Thu, 29 May 2014 16:27:40 +0900
+
+harkfd (2.0.0.6346) precise; urgency=low
+
+  * December Release
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 25 Nov 2013 18:31:49 +0900
+
+harkfd (1.9.9.5254) precise; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 13 Aug 2013 17:19:01 +0900
+
+harkfd (1.2.0.5033) precise; urgency=low
+
+  * rev. 5033 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 24 Jun 2013 12:16:28 +0900
+
+harkfd (1.2.0.4689) precise; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 12 Mar 2013 10:26:46 +0900
+
+harkfd (1.1.1) precise; urgency=low
+
+  * ubuntu12.04 support
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 27 Aug 2012 14:08:29 +0900
+
+harkfd (1.1.0) lucid; urgency=low
+
+  * New Release
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 20 Feb 2012 16:39:10 +0900
+
+harkfd (1.0.8) lucid; urgency=low
+
+  * Add libtdbd16ad
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 18 Jan 2012 16:23:50 +0900
+
+harkfd (1.0.7) lucid; urgency=low
+
+  * kinect option delete
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Sat, 24 Dec 2011 04:10:37 +0900
+
+harkfd (1.0.6) lucid; urgency=low
+
+  * #240 ADD TD-BD-16AD-USB
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 09 Dec 2011 10:40:21 +0900
+
+harkfd (1.0.5) lucid; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 18 Oct 2011 15:12:05 +0900
+
+harkfd (1.0.4) lucid; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 11 Aug 2011 15:11:10 +0900
+
+harkfd (1.0.3) lucid; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 04 Feb 2011 16:20:47 +0900
+
+harkfd (1.0.2) lucid; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 14 Jan 2011 21:11:40 +0900
+
+harkfd (1.0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 13 Jan 2010 18:55:29 +0900
