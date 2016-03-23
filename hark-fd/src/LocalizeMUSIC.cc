@@ -403,7 +403,7 @@ public:
 
     localizer.reset(new LocalizationMUSIC(nb_channels, samplingRate,
                                           length, length, peak_search_algorithm, maxnum_out_peaks));
-    cout << "reading A matrix\n";
+    cout << "reading A matrix. ch_selection: " << ch_selection << "\n";
     localizer->ReadTransferFunction(FilenameAMatrix.c_str(), ch_selection, enable_interpolation, enable_hierarchical, interpolation_type, resolution);
     cout << "done\n";
     localizer->SetNumSource(num_source);

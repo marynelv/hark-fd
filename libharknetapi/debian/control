@@ -1,0 +1,13 @@
+Source: libhark-netapi
+Section: non-free/science
+Priority: extra
+Maintainer: HRI-JP <hark-support@kuis.kyoto-u.ac.jp>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+Homepage: http://winnie.kuis.kyoto-u.ac.jp/HARK/
+
+Package: libhark-netapi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Network API Library for Hark
+ MicArray Recorder Library for Hark

@@ -178,14 +178,21 @@ void LocalizationMUSIC::Localize(vector<fcmatrix>& Rxx, vector<fcmatrix>& RxxN,
 void LocalizationMUSIC::ReadTransferFunction(char* filename,
 					     vector<int>& ch)
 {
-
 #ifdef ENABLE_HARKIO3
 
   harkio_TransferFunction *tf = NULL;
   tf = harkio_TransferFunction_fromFile(filename, "transfer function");
+  cout << "Loaded contents of zip file (" << filename << ")" << endl;
+
   // tf = harkio_TransferFunction_new();
   // libharkio3_TransferFunction_readlibhakio2(&tf, filename, NULL);
-  // ck_assert(tf != NULL);  
+  // ck_assert(tf != NULL); 
+  assert(tf != NULL); 
+  
+  if ( tf->loctfs == NULL) {
+	cerr << "LocalizationMUSIC. Missing localization transfer function. Please check the content of " << filename << endl;
+	exit(1);
+  }
 
   int slength = tf->cfg->nfft / 2 + 1;
   if ( tf->loctfs[0]->cols != slength) {
@@ -208,6 +215,7 @@ void LocalizationMUSIC::ReadTransferFunction(char* filename,
     cerr << "LocalizationMUSIC. The number of mics does not match to the size of tf file." << endl;
     exit(1);
   }
+  cout << "Got " << nmic << " mics" << endl;
 
   int nmic2 = ch.size();
   for (int c = 0; c < ch.size(); c++) {
@@ -269,7 +277,7 @@ void LocalizationMUSIC::ReadTransferFunction(char* filename,
       nbrs_neighbors[i][j] = tf->nbrs->neighbors[i][j];
     }
   }
-  
+
   harkio_TransferFunction_delete(&tf);
 
 #endif  

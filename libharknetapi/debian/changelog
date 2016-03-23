@@ -1,0 +1,47 @@
+libhark-netapi (2.2.0~7590) trusty; urgency=low
+
+  * Pre-release for 2.2.0
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Fri, 14 Aug 2015 22:00:05 +0900
+
+libhark-netapi (2.1.1) trusty; urgency=medium
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 04 Feb 2015 12:11:03 +0900
+
+libhark-netapi (2.0.1.6266) trusty; urgency=medium
+
+  * ubuntu14.04LTS
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 03 Jun 2014 12:19:57 +0900
+
+libhark-netapi (2.0.0.4749) precise; urgency=low
+
+  * December Release
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 26 Nov 2013 01:31:53 +0900
+
+libhark-netapi (1.9.9.4653) precise; urgency=low
+
+  * October release
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Tue, 20 Aug 2013 13:58:49 +0900
+
+libhark-netapi (1.2.0.4653) precise; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Mon, 11 Mar 2013 21:14:20 +0900
+
+libhark-netapi (1.2.0) precise; urgency=low
+
+  * 
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 06 Feb 2013 14:32:40 +0900
+
+libkinect (1.0.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- HRI-JP <hark-support@kuis.kyoto-u.ac.jp>  Wed, 24 Aug 2011 17:31:14 +0900
